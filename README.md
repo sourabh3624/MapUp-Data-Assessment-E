@@ -113,7 +113,7 @@ The script should perform the following tasks for each trip's toll information:
 
 ### CSV Output
 
-The script should consolidate the processed data and save the results in a single CSV file.
+The script should consolidate the processed data and save the results in a single CSV file with file name `transformed_data.csv`
 
 ### Note
 
@@ -128,7 +128,7 @@ Ensure that the script can efficiently process a large number of JSON files in t
 The Python script (`process3.py`) should be executed with the following command-line arguments:
 
 - `--to_process`: Path to the JSON responses folder.
-- `--output_dir`: The folder where the final CSV will be stored.
+- `--output_dir`: The folder where the final `transformed_data.csv` will be stored.
 
 
 ### Example Execution:
