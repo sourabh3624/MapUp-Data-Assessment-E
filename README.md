@@ -151,7 +151,11 @@ python3 process3.py --to_process /output/process2 --output_dir /output/process3
 - We have provided a sample parquet file containing two trips and the pipeline results in sample_data folder.
 - Data that you need to work with is `evaluation_data/input/raw_data.parquet`. Store your process outputs in the structure mentioned below
 - Clone the provided GitHub repository.
-- Set your repository visibility to public.
+- Add the following members as collaborators to your repo
+    - `venkateshn@mapup.ai`
+    - `namanjeetsingh@mapup.ai`
+    - `saranshj@mapup.ai`
+    - `varuna@mapup.ai`
 - Submit the link to your repository via the provided Google Form for evaluation.
 
 
