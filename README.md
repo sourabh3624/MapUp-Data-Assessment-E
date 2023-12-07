@@ -58,7 +58,7 @@ When sending requests to the `gps-tracks-csv-upload` endpoint, use the following
 - vehicleType: 5AxlesTruck
 - mapProvider: osrm
 
-### Sample cURL Request
+### Sample Python Request
 
 Here is an example python request illustrating how to send a request with the specified parameters:
 
