@@ -41,7 +41,7 @@ The Python script (`process1.py`) should be executed with the following command-
 ### Example Execution:
 
 ```bash
-python3 process1.py --to_process /test/test.parquet --output_dir /output
+python3 process1.py --to_process /test/test.parquet --output_dir /output/process1
 ```
 
 ## Process 2: Uploading GPS tracks to TollGuru API
@@ -85,7 +85,7 @@ The Python script (`process2.py`) should be executed with the following command-
 ### Example Execution:
 
 ```bash
-python3 process2.py --to_process /test/test.parquet --output_dir /output/process2
+python3 process2.py --to_process /output/process1 --output_dir /output/process2
 ```
 
 ## Process 3: Extracting Toll Information from JSON Files
@@ -134,7 +134,7 @@ The Python script (`process3.py`) should be executed with the following command-
 ### Example Execution:
 
 ```bash
-python3 process2.py --to_process /test/test.parquet --output_dir /output/process2
+python3 process3.py --to_process /output/process2 --output_dir /output/process3
 ```
 
 
