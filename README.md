@@ -19,7 +19,7 @@ In this task, you are required to develop a Python script named `process1.py` th
 
 For each unique unit in the Parquet file, you need to break down the data into trip-specific CSV files. The script should use the following logic to identify trips:
 
-- Whenever the time difference between consecutive data points is more than 1 hour, a new trip begins.
+- Whenever the time difference between consecutive data points is more than 7 hours, a new trip begins.
 
 The naming convention for trip CSV files is as follows:
 
